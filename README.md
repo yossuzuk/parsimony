@@ -14,8 +14,6 @@ adapt-t.log.c
 
 adapt-t.log.oneneg.c
 
-ngs.1.c
-
 ngssitefreq.1.c
 
 ngssitefreq162.1.c
@@ -41,8 +39,6 @@ transframe1.1.c
 gcc adapt-t.log.c -lm -o adapt-t.log
 
 gcc adapt-t.log.oneneg.c -lm -o adapt-t.log.oneneg
-
-gcc ngs.1.c -lm -o ngs.1
 
 gcc ngssitefreq.1.c -lm -o ngssitefreq.1
 
