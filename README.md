@@ -54,11 +54,7 @@ transframe1.1.c : translating nucleotide sequences into amino acid sequences bas
 
 gcc adapt-t.log.c -lm -o adapt-t.log
 
-   ex. adapt-t.log h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0 > h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0.adt
-
 gcc adapt-t.log.negcor.c -lm -o adapt-t.log.negcor
-
- 
 
 gcc adapt-t.log.oneneg.c -lm -o adapt-t.log.oneneg
 
@@ -78,9 +74,9 @@ gcc obsaa.thresh.1.c -lm -o obsaa.thresh.1
 
 gcc sbsnoanc.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.1.allb
 
-gcc sbsnoanc.negcon.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.negcon.1
+gcc sbsnoanc.negcon.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.negcon.1.allb
 
-gcc sbsnoanc.poscon.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.poscon.1
+gcc sbsnoanc.poscon.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.poscon.1.allb
 
 gcc sbsstr.1-5.allb.c -lm sbsstr.2-5.c -lm -o sbsstr.5.allb
 
@@ -88,9 +84,43 @@ gcc takeseq.fas.1.c -lm -o takeseq.fas.1
 
 gcc transframe1.1.c -lm -o transframe1.1
 
+## Example
+
+adapt-t.log h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0 > h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0.adt
+
+adapt-t.log.negcor h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0 > h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0.negcor
+
+adapt-t.log.oneneg h1.19949.sbsnoanc.1.allb.ml.0.0.5.0 > h1.19949.sbsnoanc.1.allb.ml.0.0.5.0.adt.on
+
+adapt-t.log.poscor h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0 > h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0.poscor
+
+ancseqpamp.1 h1.19949.gtrgi.ml.acc.oyako seqfile AF112741.1 > h1.gtrgi.ml.acc.ancseqpamp
+
+ngssitefreq.1 2008.orf > 2008.ngs
+
+ngssitefreq162.1 2008.orf > 2008.ngs.162
+
+noredunfasta.1 h1.37433+1.orf > h1.19949+1.orf
+
+nwktooyako.2 h1.19949+1.gtrgi.ml.acc.nwk > h1.19949+1.gtrgi.ml.acc.oyako
+
+obsaa.thresh.1 h1.19949.orf 0.0 > h1.19949.obsaa.0.0
+
+sbsnoanc.1.allb h1.19949.orf.tk h1.19949+1.gtrgi.ml.acc.oyako h1.19949.obsaa.-0.1 5.0 > h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0
+
+sbsnoanc.negcon.1.allb h1.19949.orf.tk h1.19949+1.gtrgi.ml.acc.oyako h1.19949.obsaa.-0.1 5.0 > h1.19949.sbsnoanc.negcon.1.allb.ml.-0.1.5.0
+
+sbsnoanc.poscon.1.allb h1.19949.orf.tk h1.19949+1.gtrgi.ml.acc.oyako h1.19949.obsaa.-0.1 5.0 > h1.19949.sbsnoanc.poscon.1.allb.ml.-0.1.5.0
+
+sbsstr.5.allb h1.gtrgi.ml.acc.ancseqpamp h1.19949+1.gtrgi.ml.acc.oyako h1.19949.obsaa.-0.1 5.0 > h1.19949.sbsstr.5.allb.ml.-0.1.5.0
+
+takeseq.fas.1 h1.19949+1.orf > h1.19949+1.orf.tk
+
+transframe1.1 h1.37433.orf > h1.37433.aa
+
 ## Data
 
-The complete input and output datasets used in this study are available on Zenodo: 
+The input and output datasets used in this study are available on Zenodo: 
 
 DOI: https://doi.org/10.5281/zenodo.20928034
 
