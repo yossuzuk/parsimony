@@ -12,7 +12,11 @@ src/     C source files
 
 adapt-t.log.c : conducting two-tailed test for natural selection
 
+adapt-t.log.negcor.c : conducting correction for multiple testing of negative selection
+
 adapt-t.log.oneneg.c : conducting one-tailed test for negative selection
+
+adapt-t.log.poscor.c : conducting correction for multiple testing of positive selection
 
 ancseqpamp.1.c : inferring ancestral sequence at each interior node using pamp in paml
 
@@ -35,6 +39,12 @@ sbsnoanc.h : computing ss, sn, cs, and cn at each codon site without inferring a
 sbsnoanc.negcon.1-1.allb.c : computing ss, sn, cs, and cn at each codon site without inferring ancesltral sequences for conservative detection of negative selection
 
 sbsnoanc.poscon.1-1.allb.c : computing ss, sn, cs, and cn at each codon site without inferring ancesltral sequences for conservative detection of positive selection
+
+sbsstr.1-5.allb.c : computing ss, sn, cs, and cn at each codon site with inferring ancesltral sequences
+
+sbsstr.2-5.c : computing ss, sn, cs, and cn at each codon site with inferring ancesltral sequences
+
+sbsstr.h : computing ss, sn, cs, and cn at each codon site with inferring ancesltral sequences
 
 takeseq.fas.1.c : changing the format of alignment
 
