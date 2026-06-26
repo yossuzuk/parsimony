@@ -14,6 +14,11 @@ sbsnoanc.2.c
 sbsnoanc.1.c
 
 ## Compilation
+gcc adapt-t.log.c -lm -o adapt-t.log
+gcc adapt-t.log.negcor.c -lm -o adapt-t.log.negcor
+gcc adapt-t.log.oneneg.c -lm -o adapt-t.log.oneneg
+gcc adapt-t.log.poscor.c -lm -o adapt-t.log.poscor
+gcc ngs.1.c -lm -o ngs.1
 
 
 ## Data
