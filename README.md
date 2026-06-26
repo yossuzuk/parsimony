@@ -26,6 +26,10 @@ obsaa.thresh.1.c
 
 sbsnoanc.1-1.allb.c
 
+sbsnoanc.2-1.c
+
+sbsnoanc.h
+
 sbsnoanc.negcon.1-1.allb.c
 
 sbsnoanc.poscon.1-1.allb.c
