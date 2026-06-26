@@ -10,33 +10,33 @@ src/     C source files
 
 ## Source files
 
-adapt-t.log.c
+adapt-t.log.c : conducting two-tailed test for natural selection
 
-adapt-t.log.oneneg.c
+adapt-t.log.oneneg.c : conducting one-tailed test for negative selection
 
-ngssitefreq.1.c
+ngssitefreq.1.c : counting n-linked glycosylation sites starting at each position
 
-ngssitefreq162.1.c
+ngssitefreq162.1.c : counting n-linked glycosylation sites at positions 162-164
 
-noredunfafsta.1.c
+noredunfafsta.1.c : eliminating redundant sequences
 
-nwktooyako.2.c
+nwktooyako.2.c : changing the format of phylogenetic tree
 
-obsaa.thresh.1.c
+obsaa.thresh.1.c : making the list of amino acids observed with proprtion higher than threshold value at each site
 
-sbsnoanc.1-1.allb.c
+sbsnoanc.1-1.allb.c : computing ss, sn, cs, and cn at each codon site without inferring ancesltral sequences
 
-sbsnoanc.2-1.c
+sbsnoanc.2-1.c : computing ss, sn, cs, and cn at each codon site without inferring ancesltral sequences
 
-sbsnoanc.h
+sbsnoanc.h : computing ss, sn, cs, and cn at each codon site without inferring ancesltral sequences
 
-sbsnoanc.negcon.1-1.allb.c
+sbsnoanc.negcon.1-1.allb.c : computing ss, sn, cs, and cn at each codon site without inferring ancesltral sequences for conservative detection of negative selection
 
-sbsnoanc.poscon.1-1.allb.c
+sbsnoanc.poscon.1-1.allb.c : computing ss, sn, cs, and cn at each codon site without inferring ancesltral sequences for conservative detection of positive selection
 
-takeseq.fas.1.c
+takeseq.fas.1.c : changing the format of alignment
 
-transframe1.1.c
+transframe1.1.c : translating nucleotide sequences into amino acid sequences based on standard genetic code
 
 ## Compilation
 
