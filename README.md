@@ -54,7 +54,11 @@ transframe1.1.c : translating nucleotide sequences into amino acid sequences bas
 
 gcc adapt-t.log.c -lm -o adapt-t.log
 
+   ex. adapt-t.log h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0 > h1.19949.sbsnoanc.1.allb.ml.-0.1.5.0.adt
+
 gcc adapt-t.log.negcor.c -lm -o adapt-t.log.negcor
+
+ 
 
 gcc adapt-t.log.oneneg.c -lm -o adapt-t.log.oneneg
 
