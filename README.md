@@ -122,7 +122,7 @@ transframe1.1 h1.37433.orf > h1.37433.aa
 
 The input and output datasets used in this study are available on Zenodo: 
 
-DOI: https://doi.org/10.5281/zenodo.20931793
+DOI: https://doi.org/10.5281/zenodo.20932236
 
 
 ## Contact
