@@ -8,7 +8,9 @@ src/     C source files
 
 ## Source files
 obsaa.c
+
 sbsnoanc.2.c
+
 sbsnoanc.1.c
 
 ## Compilation
@@ -16,9 +18,11 @@ sbsnoanc.1.c
 
 ## Data
 The complete input and output datasets used in this study are available on Zenodo: 
+
 DOI: https://doi.org/
 
 ## Contact
 Yoshiyuki Suzuki
 Nagoya City University
+
 yossuzuk@nsc.nagoya-cu.ac.jp
