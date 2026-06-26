@@ -88,7 +88,7 @@ gcc transframe1.1.c -lm -o transframe1.1
 
 The complete input and output datasets used in this study are available on Zenodo: 
 
-DOI: https://doi.org/
+DOI: https://doi.org/10.5281/zenodo.20928034
 
 ## Contact
 
