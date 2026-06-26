@@ -14,6 +14,8 @@ adapt-t.log.c : conducting two-tailed test for natural selection
 
 adapt-t.log.oneneg.c : conducting one-tailed test for negative selection
 
+ancseqpamp.1.c : inferring ancestral sequence at each interior node using pamp in paml
+
 ngssitefreq.1.c : counting n-linked glycosylation sites starting at each position
 
 ngssitefreq162.1.c : counting n-linked glycosylation sites at positions 162-164
@@ -42,7 +44,13 @@ transframe1.1.c : translating nucleotide sequences into amino acid sequences bas
 
 gcc adapt-t.log.c -lm -o adapt-t.log
 
+gcc adapt-t.log.negcor.c -lm -o adapt-t.log.negcor
+
 gcc adapt-t.log.oneneg.c -lm -o adapt-t.log.oneneg
+
+gcc adapt-t.log.poscor.c -lm -o adapt-t.log.poscor
+
+gcc ancseqpamp.1.c -lm -o ancseqpamp.1
 
 gcc ngssitefreq.1.c -lm -o ngssitefreq.1
 
@@ -59,6 +67,8 @@ gcc sbsnoanc.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.1.allb
 gcc sbsnoanc.negcon.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.negcon.1
 
 gcc sbsnoanc.poscon.1-1.allb.c -lm sbsnoanc.2-1.c -lm -o sbsnoanc.poscon.1
+
+gcc sbsstr.1-5.allb.c -lm sbsstr.2-5.c -lm -o sbsstr.5.allb
 
 gcc takeseq.fas.1.c -lm -o takeseq.fas.1
 
